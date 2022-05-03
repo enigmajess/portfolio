@@ -61,7 +61,24 @@ h1, h2, h3, h4, h5, h6 {
     padding: 40px;
 }
 
-@media (max-width: 600px) {
+.about-me {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.img-fluid{
+    border-radius: 5px;
+    max-height: 60%;
+    max-width: 100%;
+}
+
+.about-content {
+    text-align: center;
+    padding: 100px, 20px;
+    margin-top: 60px;
+}
+
+@media (max-width: 900px) {
     body {
         text-align: center;
     }
@@ -73,4 +90,5 @@ h1, h2, h3, h4, h5, h6 {
     .project-description {
         width: 100%;
     }
+
 }
