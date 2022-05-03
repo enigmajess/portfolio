@@ -78,6 +78,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 60px;
 }
 
+.project-container {
+    text-align: center;
+    padding: 160px, 20px;
+}
+
+.card {
+    margin: 0px;
+    margin: auto;
+    height: 350px;
+    width: auto;
+}
+
+.works-title {
+    font-size: 60px;
+}
+
 @media (max-width: 900px) {
     body {
         text-align: center;
@@ -89,6 +105,14 @@ h1, h2, h3, h4, h5, h6 {
 
     .project-description {
         width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .works-title {
+        font-size: 30px;
     }
 
 }
