@@ -92,10 +92,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .works-title {
     font-size: 60px;
+    margin-top: 60px;
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 100px 20px;
 }
 
 .content {
