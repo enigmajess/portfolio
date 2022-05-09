@@ -94,6 +94,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 60px;
 }
 
+.content-container {
+    padding: 160px 20px;
+}
+
+.content {
+    margin: 30px;
+}
+
 @media (max-width: 900px) {
     body {
         text-align: center;
@@ -114,5 +122,16 @@ h1, h2, h3, h4, h5, h6 {
     .works-title {
         font-size: 30px;
     }
+
+    .container, .container-sm {
+        max-width: 540px;
+    }
+
+    .content {
+        text-align: center;
+        padding: 0;
+    }
+
+    
 
 }
