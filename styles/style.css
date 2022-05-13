@@ -137,12 +137,13 @@ h4 {
 }
 
 .contact-container {
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .contact-button-footer {
-    margin-right: 100px;
+    margin-right: 150px;
 }
+
 
 @media (max-width: 900px) {
     body {
