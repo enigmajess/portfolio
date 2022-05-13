@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-message{
     padding: 40px;
+    margin-top: 20px;
 }
 
 .about-me {
@@ -103,6 +104,46 @@ h1, h2, h3, h4, h5, h6 {
     margin: 30px;
 }
 
+footer {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
+footer .contact-box {
+    background-color: var(--branding-color);    
+    padding: 30px 80px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 48px;
+    margin-left: 60x;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link-btn {
+    max-width: 80px;
+    max-height: auto;
+    padding: 20px
+}
+
+.contact-footer-main {
+    margin-top: 50px;
+}
+
+.contact-container {
+    margin-left: 100px;
+}
+
+.contact-button-footer {
+    margin-right: 100px;
+}
+
 @media (max-width: 900px) {
     body {
         text-align: center;
@@ -122,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .works-title {
         font-size: 30px;
+        margin: 51px;
     }
 
     .container, .container-sm {
@@ -132,6 +174,19 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
         padding: 0;
     }
+
+    .contact-container {
+        text-align: center;
+        margin: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    
 
     
 
