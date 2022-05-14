@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sourdough</title>
+    <style>
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 70%;
+            text-align: center;
+            margin: auto;
+            background-color: #DDC7AA;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3d526d;
+        }
+
+        h2 {
+            text-align: center;
+            color: #3d526d;
+            font-style: italic;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgba(82, 100, 123, 0.5);
+            line-height: 1.5;
+            max-width: 70%;
+            margin: auto;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        img {
+            max-width: 70%;
+            max-height: 20%;
+            border-radius: 10px;
+        }
+
+        .blog-post {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3d526d;
+            font-size: 15px;
+            padding-bottom: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #3d526d;
+            border-color: white;
+            border: transparent;
+            color: white;
+            font-size: 18px;
+            border-radius: 10px;
+            padding: 15px;
+            margin: auto;
+            margin-top: 10px;
+            box-shadow: 5px 5px 5px gray;
+            display: block;
+        }
+
+        button:hover{
+            cursor: pointer;
+            color: #52647B;
+            border-color: #52647B;
+            border: solid 1.5px;
+            background-color: white;
+        }
+
+        .footer {
+            padding-top: 10px;
+        }
+
+    </style>
+  </head>
+  <body>
+      
+    <div class="container">
+
+        <h1>Sourdough</h1>
+
+    <h2>It's more than just a hobby</h2>
+
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/5c2d2d10b27e398709a72eb2/1589136385966-J3QKIEHAL8918AMAHF4Q/beginner_sourdough_bread_recipe.jpg"
+      alt="Sour dough"
+    />
+
+    <p class="blog-post">
+      Recently, there has been a lot of talk about sourdough. It's all over
+      social media and has become the latest hobby trend. I can totally see why,
+      but it also is so much more than just a hobby. The act of kneading the
+      dough has been linked to lowering stress and is totally an act of art. Fun
+      fact! Did you know that bakers relied on sourdough as the main form of
+      leaving agent into the middle ages!
+    </p>
+
+    <a href="https://en.wikipedia.org/wiki/Sourdough" target="_blank">
+      Read more about the history of Sourdough on wikipedia.
+    </a>
+
+    <button>🍳 Subscribe to my newsletter!</button>
+
+    <p class="footer">Coded by Jessica Jones</p>
+    </div>
+
+    <script>
+        function subscribe() {
+
+            let name = prompt ("What is your name?")
+            let email = prompt("What is your email?")
+
+            alert ("Thank you " + name + "!")
+        }
+       
+
+        document.querySelector("button").addEventListener("click", subscribe)
+    </script>
+  </body>
+</html>
